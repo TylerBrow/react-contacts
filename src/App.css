@@ -1,33 +1,63 @@
-.App {
-  text-align: center;
+Html {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+*,* ::after, *::before {
+    box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#person {
+    width: 400px;
+    border: 1px solid gray;
+}
+span {
+    padding-left: 12px
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+#info li {
+    border-bottom: 1px solid grey;
+    line-height: 50px;
+}
+li:nth-child(4) {
+    border-bottom: none;
+}
+#pic {
+    width: 400px;
+    height: 300px;
+    background-color: limegreen;
+    box-shadow: 0 1px gray;
+}
+#pic img {
+    position: relative;
+    top: 30%;
+    left: 30%;
+    border-radius: 65px;
+}
+h2 {
+    background-color: lime;
+    line-height: 60px;
+}
+#people li {
+    border-bottom: 1px solid gray;
+    padding: 15px 15px;
+}
+#people img {
+    border-radius: 65px;
+    
+}
+#contacts {
+    border: 1px solid gray;
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
+}
+#arrow {
+    position: absolute;
+    
+
 }
